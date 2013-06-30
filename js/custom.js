@@ -1,3 +1,7 @@
 $(document).bind('mobileinit', function(){
-    alert(1);
+	// global configuration
+    $.mobile.defaultPageTransition = "fade";
+
+    // page configuration
+    $.mobile.page.prototype.options.addBackBtn = true;
 });
